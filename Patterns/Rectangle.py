@@ -5,6 +5,9 @@ def pat(x, y):
       print('# ', end="") # end argument allows us skip new line
     print() # move to new line
 
-x = int(input("Enter rows count: "))
-y = int(input("Enter columns count: "))
-pat(x, y)
+try:
+  x = int(input("Enter rows count: "))
+  y = int(input("Enter columns count: "))
+  pat(x, y)
+except ValueError:
+  print("Enter valid number")
