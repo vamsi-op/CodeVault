@@ -1,4 +1,4 @@
-# Triangle pattern
+# Right Triangle pattern
 
 def pat(n):
   for i in range(n):
