@@ -1,4 +1,4 @@
-# Inverted Right Triangle pattern
+# Inverted Half0 Pyramid pattern
 
 def pat(n):
     # decrement loop
