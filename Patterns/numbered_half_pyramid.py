@@ -1,4 +1,4 @@
-# Numbered Right Triangle pattern
+# Numbered Half Pyramid pattern
 
 def pat(n):
     for i in range(n):
