@@ -1,4 +1,4 @@
-# Diamond Pattern
+# Half Diamond Pattern
 
 def pat(n):
     # print first half of diamond
@@ -14,8 +14,8 @@ def pat(n):
         print() # new line
     
 for _ in range(int(input("Enter number of test cases: "))):
-  try:
-    n = int(input("Enter number of rows: "))
-    pat(n)
-  except ValueError:
-    print("Enter a valid number")
+    try:
+        n = int(input("Enter number of rows: "))
+        pat(n)
+    except ValueError:
+        print("Enter a valid number")
