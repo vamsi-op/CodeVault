@@ -1,4 +1,4 @@
-# Inverted Half0 Pyramid pattern
+# Inverted Half Pyramid pattern
 
 def pat(n):
     # decrement loop
