@@ -21,7 +21,7 @@ def pat(n):
     
 for _ in range(int(input("Enter number of test cases: "))):
     try:
-        n = int(input("Enter number of rows: "))
+        n = int(input("Enter size of Diamond: "))
         pat(n)
     except ValueError:
         print("Enter a valid number")
