@@ -1,4 +1,4 @@
-# Repeated Alphabetical Half Pyramid Pattern
+# Alphabetical Pyramid Pattern
 
 def pat(n):
     num = 0
