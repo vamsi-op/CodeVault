@@ -9,3 +9,8 @@ for _ in range(int(input("Enter number of test cases: "))):
 
     except ValueError:
         print("Enter a valid number")
+
+'''
+Constraints:
+0 <= n <= 10⁹
+'''
