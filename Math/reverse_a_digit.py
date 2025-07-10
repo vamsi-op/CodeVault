@@ -8,3 +8,9 @@ for _ in range(int(input("Enter number of test cases: "))):
         print(res)
     except ValueError:
         print("Enter a valid number")
+
+'''
+Constraints:
+0 <= n <= 5000
+n will contain no leading zeroes except when it is 0 itself.
+'''
