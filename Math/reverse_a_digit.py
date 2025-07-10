@@ -1,16 +1,13 @@
 for _ in range(int(input("Enter number of test cases: "))):
     try:
-        n = int(input("Enter a number: "))
+        x = int(input("Enter number: "))
+        flag = True if x < 0 else False
+        x *= -1 if flag else 1
         res = 0
-        while n > 0:
-            res = res * 10 + n % 10
-            n = n // 10
-        print(res)
+        while x > 0:
+            res = res * 10 + x % 10
+            x = x // 10
+            
+        print(-res if flag else res)
     except ValueError:
         print("Enter a valid number")
-
-'''
-Constraints:
-0 <= n <= 5000
-n will contain no leading zeroes except when it is 0 itself.
-'''
