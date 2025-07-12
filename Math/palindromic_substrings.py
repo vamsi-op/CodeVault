@@ -2,7 +2,7 @@ for _ in range(int(input("Enter number of test cases: "))):
     s = input("Enter string: ").lower()
     n, res = len(s), 0
     for i in range(n):
-        for l, r in [(i, i),(i, i+1)]:
+        for l, r in [(i, i),(i, i+1)]: # (i, i) for odd center, (i, i + 1) for even center
             while l >= 0 and r < n and s[l] == s[r]: l -= 1; r += 1
             res += (r-l)//2
     print(res)
