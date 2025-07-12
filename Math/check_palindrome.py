@@ -1,6 +1,11 @@
 for _ in range(int(input("Enter number of test cases: "))):
     s = input("Enter string: ").lower()
-    print(s == s[::-1])
+    res = True
+    i, j = 0, len(s)
+    while i < j:
+        if s[i] != s[j]:
+            res = False
+    print(res)
 '''
 Constraints:
 
